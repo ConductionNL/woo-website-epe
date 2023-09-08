@@ -11,7 +11,7 @@ env: # Change these to your preferences any image url can also be a base encoded
   JUMBOTRON_IMAGE_URL: "https://www.epe.nl/sites/default/files/styles/hero_large/public/2023-05/lentefoto.png?h=ce9b50b1&itok=-DpH8zNj"
   FOOTER_LOGO_URL: https://www.cjgepe.nl/templates/html/responsive/design/epe/Gemeente-Epe-WIT.gif
   FOOTER_LOGO_HREF: "https://www.epe.nl/"
-  OIDN_NUMBER: " "
+  OIDN_NUMBER: "00000001001104524000"
 
 on:
   push:
