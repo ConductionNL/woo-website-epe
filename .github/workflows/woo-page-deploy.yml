@@ -15,7 +15,7 @@ env: # Change these to your preferences any image url can also be a base encoded
   JUMBOTRON_IMAGE_URL: "https://www.epe.nl/sites/default/files/styles/hero_medium/public/2023-09/Koeien.jpg?h=18223889&itok=BSberuIC"
   FOOTER_LOGO_URL: "false"
   FOOTER_LOGO_HREF: "https://www.epe.nl/"
-  FOOTER_CONTENT: '[{"title":"Algemeen","items":[{"label":"Website","value":"www.epe.nl","link":"https://www.epe.nl/"},{"label":"Contact met de gemeente","value":"Neem contact op","link":"https://www.epe.nl/contact-met-de-gemeente"}]},{"title":"Contact","items":[{"label":"Phone number","value":"14 0578","link":"tel:140578"},{"label":"Email address","value":"gemeente@epe.nl","link":"mailto:gemeente@epe.nl"},{"label":"Address","value":"Marktplein 1 (Markt 14 voor navigatie) 8161 EE Epe"}]}]'
+  FOOTER_CONTENT: '[{"title":"Algemeen","items":[{"label":"Website","value":"www.epe.nl","link":"https://www.epe.nl/"},{"label":"Privacy","value":"Privacy","link":"https://epe.nl/"},{"label":"Toegankelijkheid","value":"Toegangelijkheid","link":"https://accessibe.com/accessscan?website=https://conductionnl.github.io/woo-website-epe/"},{"label":"Over deze website","value":"Over deze website","link":"https://epe.nl/"}]},{"title":"Contact","items":[{"label":"Phone number","value":"14 0578","link":"tel:140578"},{"label":"Email address","value":"gemeente@epe.nl","link":"mailto:gemeente@epe.nl"},{"label":"Address","value":"Marktplein 1 (Markt 14 voor navigatie) 8161 EE Epe"},{"label":"Contact met de gemeente","value":"Neem contact op","link":"https://www.epe.nl/contact-met-de-gemeente"}]}]'
   OIDN_NUMBER: "00000001001104524000"
 
 on:
