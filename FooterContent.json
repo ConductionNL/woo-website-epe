@@ -5,22 +5,26 @@
       {
         "ariaLabel": "Website",
         "value": "www.epe.nl",
-        "link": "https://www.epe.nl/"
+        "link": "https://www.epe.nl/",
+        "icon": { "prefix": "fas", "icon": "arrow-up-right-from-square", "placement": "right" }
       },
       {
         "ariaLabel": "Privacy",
         "value": "Privacy",
-        "link": "https://epe.nl/privacy"
+        "link": "https://epe.nl/privacy",
+        "icon": { "prefix": "fas", "icon": "arrow-up-right-from-square", "placement": "right" }
       },
       {
         "ariaLabel": "Toegankelijkheid",
         "value": "Toegankelijkheid",
-        "link": "https://accessibe.com/accessscan?website=https://conductionnl.github.io/${{ github.event.repository.name }}/"
+        "link": "https://accessibe.com/accessscan?website=https://conductionnl.github.io/${{ github.event.repository.name }}/",
+        "icon": { "prefix": "fas", "icon": "arrow-up-right-from-square", "placement": "right" }
       },
       {
         "ariaLabel": "Over deze website",
         "value": "Over deze website",
-        "link": "https://epe.nl/"
+        "markdownLink": "https://raw.githubusercontent.com/ConductionNL/woo-website-template/main/docs/Over%20deze%20website.md",
+        "icon": { "prefix": "fas", "icon": "arrow-up-right-from-square", "placement": "right" }
       }
     ]
   },
@@ -39,8 +43,9 @@
       },
       {
         "ariaLabel": "Contact met de gemeente",
-        "value": "contact",
-        "link": "https://www.epe.nl/contact-met-de-gemeente"
+        "value": "Neem contact op",
+        "link": "https://www.epe.nl/contact-met-de-gemeente",
+        "icon": { "prefix": "fas", "icon": "arrow-up-right-from-square", "placement": "right" }
       }
     ]
   },
@@ -58,4 +63,3 @@
     ]
   }
 ]
-
