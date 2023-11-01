@@ -1,0 +1,51 @@
+[
+    {
+        "title": "Algemeen",
+        "items": [
+            {
+                "label": "Website",
+                "value": "www.epe.nl",
+                "link": "https://www.epe.nl/"
+            },
+            {
+                
+                "value": "Privacy",
+                "link": "https://epe.nl/"
+            },
+            {
+                
+                "value": "Toegankelijkheid",
+                "link": "https://accessibe.com/accessscan?website=https://conductionnl.github.io/${{ github.event.repository.name }}/"
+            },
+            {
+                
+                "value": "Over deze website",
+                "link": "https://epe.nl/"
+            }
+        ]
+    },
+    {
+        "title": "Contact",
+        "items": [
+            {
+                "label": "Phone number",
+                "value": "14 0578",
+                "link": "tel:140578"
+            },
+            {
+                "label": "Email address",
+                "value": "gemeente@epe.nl",
+                "link": "mailto:gemeente@epe.nl"
+            },
+            {
+                "label": "Address",
+                "value": "Marktplein 1 (Markt 14 voor navigatie) 8161 EE Epe"
+            },
+            {
+                "label": "Contact met de gemeente",
+                "value": "Neem contact op",
+                "link": "https://www.epe.nl/contact-met-de-gemeente"
+            }
+        ]
+    }
+]
