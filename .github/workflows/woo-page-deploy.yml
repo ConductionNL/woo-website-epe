@@ -22,6 +22,15 @@ env: # Change these to your preferences any image url can also be a base encoded
   FOOTER_CONTENT_HEADER: "heading-3"
   OIDN_NUMBER: "00000001001299992000"
   ENV_VARS_SET: "true"
+  SECURITY_TXT_INTRO: "Information related to reporting security vulnerabilities of this site."
+  SECURITY_TXT_CONTACT: "https://www.epe.nl/beveiligingslek-datalek-melden"
+  SECURITY_TXT_EXPIRES: "2024-11-30T22:59:00.000Z"
+  SECURITY_TXT_ENCRYPTION: "https://www.informatiebeveiligingsdienst.nl/pgp-sleutel/"
+  SECURITY_TXT_ACKNOWLEDGEMENT: "https://www.informatiebeveiligingsdienst.nl/responsible-disclosure/"
+  SECURITY_TXT_LANGUAGES: "nl, en"
+  SECURITY_TXT_CANONICAL: " "
+  SECURITY_TXT_POLICY: "https://www.epe.nl/beveiligingslek-datalek-melden"
+  SECURITY_TXT_HIRING: " "
 
 on:
   push:
@@ -60,6 +69,15 @@ jobs:
           envkey_GATSBY_FOOTER_CONTENT_HEADER: ${{ env.FOOTER_CONTENT_HEADER }}
           envkey_GATSBY_OIDN_NUMBER: ${{ env.OIDN_NUMBER }}
           envkey_GATSBY_ENV_VARS_SET: ${{ env.ENV_VARS_SET }}
+          envkey_GATSBY_SECURITY_TXT_INTRO: ${{ env.SECURITY_TXT_INTRO }}
+          envkey_GATSBY_SECURITY_TXT_CONTACT: ${{ env.SECURITY_TXT_CONTACT }}
+          envkey_GATSBY_SECURITY_TXT_EXPIRES: ${{ env.SECURITY_TXT_EXPIRES }}
+          envkey_GATSBY_SECURITY_TXT_ENCRYPTION: ${{ env.SECURITY_TXT_ENCRYPTION }}
+          envkey_GATSBY_SECURITY_TXT_ACKNOWLEDGEMENTS: ${{ env.SECURITY_TXT_ACKNOWLEDGEMENTS }}
+          envkey_GATSBY_SECURITY_TXT_LANGUAGES: ${{ env.SECURITY_TXT_LANGUAGES }}
+          envkey_GATSBY_SECURITY_TXT_CANONICAL: ${{ env.SECURITY_TXT_CANONICAL }}
+          envkey_GATSBY_SECURITY_TXT_POLICY: ${{ env.SECURITY_TXT_POLICY }}
+          envkey_GATSBY_SECURITY_TXT_HIRING: ${{ env.SECURITY_TXT_HIRING }}
           directory: pwa/static
           file_name: .env.production
           fail_on_empty: true
