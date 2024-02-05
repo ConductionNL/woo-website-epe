@@ -1,0 +1,25 @@
+# Information related to reporting security vulnerabilities of this site.
+
+# How to communicate about security issues.
+Contact: https://www.epe.nl/beveiligingslek-datalek-melden
+
+# Date and time after which this data is considered stale
+Expires: 2024-11-30T22:59:00.000Z
+
+# Link to a key for secure communication.
+Encryption: https://www.informatiebeveiligingsdienst.nl/pgp-sleutel/
+
+# Link to a page listing security researchers who have helped us.
+Acknowledgments: https://www.informatiebeveiligingsdienst.nl/responsible-disclosure/
+
+# Preferred languages for communication.
+Preferred-Languages: nl, en
+
+# Canonical
+
+# What security researchers should do when searching for or reporting security issues.
+Policy: https://www.epe.nl/beveiligingslek-datalek-melden
+
+# Hiring
+
+# Please see https://securitytxt.org/ for details of the specification of this file.
