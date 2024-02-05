@@ -26,7 +26,7 @@ env: # Change these to your preferences any image url can also be a base encoded
   SECURITY_TXT_CONTACT: "https://www.epe.nl/beveiligingslek-datalek-melden"
   SECURITY_TXT_EXPIRES: "2024-11-30T22:59:00.000Z"
   SECURITY_TXT_ENCRYPTION: "https://www.informatiebeveiligingsdienst.nl/pgp-sleutel/"
-  SECURITY_TXT_ACKNOWLEDGEMENT: "https://www.informatiebeveiligingsdienst.nl/responsible-disclosure/"
+  SECURITY_TXT_ACKNOWLEDGEMENTS: "https://www.informatiebeveiligingsdienst.nl/responsible-disclosure/"
   SECURITY_TXT_LANGUAGES: "nl, en"
   SECURITY_TXT_CANONICAL: " "
   SECURITY_TXT_POLICY: "https://www.epe.nl/beveiligingslek-datalek-melden"
