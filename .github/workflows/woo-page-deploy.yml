@@ -31,7 +31,7 @@ env: # Change these to your preferences any image url can also be a base encoded
   SECURITY_TXT_CANONICAL: " "
   SECURITY_TXT_POLICY: "https://www.epe.nl/beveiligingslek-datalek-melden"
   SECURITY_TXT_HIRING: " "
-
+  ANALYTICS_URL: "https://siteimproveanalytics.com/js/siteanalyze_6006019.js"
 on:
   push:
     branches:
@@ -78,6 +78,7 @@ jobs:
           envkey_GATSBY_SECURITY_TXT_CANONICAL: ${{ env.SECURITY_TXT_CANONICAL }}
           envkey_GATSBY_SECURITY_TXT_POLICY: ${{ env.SECURITY_TXT_POLICY }}
           envkey_GATSBY_SECURITY_TXT_HIRING: ${{ env.SECURITY_TXT_HIRING }}
+          envkey_GATSBY_ANALYTICS_URL: ${{ env.ANALYTICS_URL }}
           directory: pwa/static
           file_name: .env.production
           fail_on_empty: true
